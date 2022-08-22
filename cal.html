@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cal.css">
+    <title>Simple Calculator</title>
+</head>
+<body> 
+
+    <div id="div1" class="conatainer">
+
+        <div id="div2" class="calBody"> 
+
+            <form id="display" class="calDisplay" >
+                <input type="text" id="screen" class="input" spellcheck="false" readonly />
+            </form>
+
+            <div id="buttons" class="calBtns">
+
+             <input type="button" id="btn7" class="btn" value="7" onclick="clickEvnt(this.value)">
+             <input type="button" id="btn8" class="btn" value="8" onclick="clickEvnt(this.value)">
+             <input type="button" id="btn9" class="btn" value="9" onclick="clickEvnt(this.value)">
+             <input type="button" id="btn+" class="btn" value="+" onclick="clickEvnt(this.value)">
+             <input type="button" id="btn4" class="btn" value="4" onclick="clickEvnt(this.value)">
+             <input type="button" id="btn5" class="btn" value="5" onclick="clickEvnt(this.value)">
+             <input type="button" id="btn6" class="btn" value="6" onclick="clickEvnt(this.value)">
+             <input type="button" id="btn-" class="btn" value="-" onclick="clickEvnt(this.value)">
+             <input type="button" id="btn1" class="btn" value="1" onclick="clickEvnt(this.value)">
+             <input type="button" id="btn2" class="btn" value="2" onclick="clickEvnt(this.value)">
+             <input type="button" id="btn3" class="btn" value="3" onclick="clickEvnt(this.value)">
+             <input type="button" id="btn*" class="btn" value="*" onclick="clickEvnt(this.value)">
+             <input type="button" id="btn0" class="btn" value="0" onclick="clickEvnt(this.value)">
+             <input type="button" id="btn." class="btn" value="." onclick="clickEvnt(this.value)">
+             <input type="button" id="btn/" class="btn" value="/" onclick="clickEvnt(this.value)">
+             <input type="button" id="btnEq" class="btn" value="=" onclick="result()">
+                
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="cal.js"></script>
+
+</body>
+</html>
